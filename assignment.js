@@ -1,3 +1,5 @@
+// https://github.com/ShekhAbdullah/assignmentjs
+
 // KilometerToMeter
 
 function KilometerToMeter(input) {
@@ -32,6 +34,7 @@ function hotalCost(days) {
     var daysstore = days;
     var cost = 0;
     if (daysstore <= 10) {
+        
         cost = daysstore * 50;
     }
     else if (daysstore <= 20) {
